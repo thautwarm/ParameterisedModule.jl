@@ -54,8 +54,9 @@ end
 
 # Parametric Examples
 
-```julia
+An example(word-algebra) from [the section *Algebra* of Oleg's tagless final lectures](http://okmij.org/ftp/tagless-final/Algebra.html).
 
+```julia
 Functor = Function
 @sig struct TF{Eltype}
     e :: Eltype
